@@ -287,7 +287,7 @@
                                           children: [
                                             (0, a.jsx)(u.Z, {
                                               value: M,
-                                              suffix: " RUBIAI",
+                                              suffix: " RAVEX",
                                               noTooltip: !0,
                                               className: el,
                                             }),
@@ -382,7 +382,7 @@
                                           children: [
                                             (0, a.jsx)(u.Z, {
                                               value: $,
-                                              suffix: " RUBIAI",
+                                              suffix: " RAVEX",
                                               noTooltip: !0,
                                               className: el,
                                             }),
@@ -428,7 +428,7 @@
                                             prefix: "$",
                                             noTooltip: !1,
                                             tooltipContent:
-                                              "The token price is fetched from the RUBIAI/USDC pool on the Metis network via DIA.",
+                                              "The token price is fetched from the RAVEX/USDC pool on the Metis network via DIA.",
                                             className: ea,
                                           }),
                                         })
@@ -556,7 +556,7 @@
                                       (0, a.jsx)("span", {
                                         className:
                                           "text-xs 3xl:text-lg mt-0.5 font-light",
-                                        children: "(RUBIAI/USDC)",
+                                        children: "(RAVEX/USDC)",
                                       }),
                                     ],
                                   }),
@@ -968,7 +968,7 @@
                           };
                         eP({
                           status: "pending",
-                          message: "Waiting for RUBIAI approval",
+                          message: "Waiting for RAVEX approval",
                           tx_hash: a,
                         }),
                           eT(!0);
@@ -981,7 +981,7 @@
                             s
                               ? {
                                   status: "failed",
-                                  message: "Failed to approve RUBIAI",
+                                  message: "Failed to approve RAVEX",
                                   tx_hash: a,
                                 }
                               : null
@@ -990,7 +990,7 @@
                             eW(
                               o().uniqBy(
                                 o().concat(eU, {
-                                  message: "Approve RUBIAI successful",
+                                  message: "Approve RAVEX successful",
                                   tx_hash: a,
                                 }),
                                 "tx_hash"
@@ -1064,8 +1064,8 @@
                         let i = {
                           status: s ? "failed" : "success",
                           message: s
-                            ? "Failed to stake RUBIAI!"
-                            : "Stake RUBIAI successful!",
+                            ? "Failed to stake RAVEX!"
+                            : "Stake RAVEX successful!",
                           tx_hash: l,
                         };
                         eq(i),
@@ -1099,7 +1099,7 @@
                         : t
                         ? eq({
                             status: "success",
-                            message: "Stake RUBIAI successful",
+                            message: "Stake RAVEX successful",
                             tx_hash: "string" == typeof t ? t : void 0,
                           })
                         : eq({
@@ -1200,8 +1200,8 @@
                           let i = {
                             status: s ? "failed" : "success",
                             message: s
-                              ? "Failed to unstake RUBIAI"
-                              : "Unstake RUBIAI successful",
+                              ? "Failed to unstake RAVEX"
+                              : "Unstake RAVEX successful",
                             tx_hash: a,
                           };
                           eq(i),
@@ -1244,7 +1244,7 @@
                           : t
                           ? eq({
                               status: "success",
-                              message: "Remove RUBIAI successful",
+                              message: "Remove RAVEX successful",
                               tx_hash: "string" == typeof t ? t : void 0,
                             })
                           : eq({
@@ -1658,7 +1658,7 @@
                                                 (0, a.jsx)("span", {
                                                   className:
                                                     "text-xs 3xl:text-lg font-medium",
-                                                  children: "Not enough RUBIAI",
+                                                  children: "Not enough RAVEX",
                                                 }),
                                               ],
                                             }),
@@ -1923,7 +1923,7 @@
                                                         ? (0, a.jsx)(u.Z, {
                                                             value: tl,
                                                             maxDecimals: 6,
-                                                            suffix: " RUBIAI",
+                                                            suffix: " RAVEX",
                                                             className:
                                                               "text-slate-600 dark:text-slate-50 text-sm 3xl:text-lg font-semibold",
                                                           })
@@ -1936,7 +1936,7 @@
                                                         : (0, a.jsx)("span", {
                                                             className:
                                                               "text-slate-600 dark:text-slate-50 text-sm 3xl:text-lg font-semibold",
-                                                            children: "0 RUBIAI",
+                                                            children: "0 RAVEX",
                                                           }),
                                                     }),
                                                 }),
@@ -2024,7 +2024,7 @@
                                                 (0, a.jsx)("span", {
                                                   className:
                                                     "text-xs 3xl:text-lg font-medium",
-                                                  children: "Not enough RUBIAI",
+                                                  children: "Not enough RAVEX",
                                                 }),
                                               ],
                                             }),
@@ -2308,7 +2308,7 @@
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             children: [
-                                              "View tx on Rubi AI explorer",
+                                              "View tx on Ravex AI explorer",
                                               (0, a.jsx)(C.ObP, {
                                                 size: 24,
                                                 className:
@@ -2372,7 +2372,7 @@
                                                 value: th,
                                                 noTooltip: !0,
                                                 maxDecimals: 4,
-                                                suffix: " RUBIAI",
+                                                suffix: " RAVEX",
                                                 className: tw,
                                               }),
                                               (0, a.jsx)(u.Z, {
@@ -2414,7 +2414,7 @@
                                                 value: tl,
                                                 noTooltip: !0,
                                                 maxDecimals: 4,
-                                                suffix: " RUBIAI",
+                                                suffix: " RAVEX",
                                                 className: tw,
                                               }),
                                               (0, a.jsx)(u.Z, {
@@ -2454,7 +2454,7 @@
                                             children: [
                                               (0, a.jsx)(u.Z, {
                                                 value: tn,
-                                                suffix: " RUBIAI",
+                                                suffix: " RAVEX",
                                                 noTooltip: !0,
                                                 maxDecimals: 4,
                                                 className: tw,
@@ -2498,7 +2498,7 @@
                         className:
                           "mt-1 flex items-center space-x-1 text-xs text-slate-400 dark:text-slate-500 font-extralight",
                         children:
-                          "Stake, unstake, claim, or compound transactions on the Metis are confirmed in a few seconds. However, on OFT chains (e.g., Ethereum) other than Metis, stake/unstake/claim transactions may take 2-4 minutes due to the cross-chain messenger protocol provided by Rubi AI. Please keep this information in mind during your transactions!",
+                          "Stake, unstake, claim, or compound transactions on the Metis are confirmed in a few seconds. However, on OFT chains (e.g., Ethereum) other than Metis, stake/unstake/claim transactions may take 2-4 minutes due to the cross-chain messenger protocol provided by Ravex AI. Please keep this information in mind during your transactions!",
                       }),
                     }),
                   ],
@@ -2814,7 +2814,7 @@
                     (0, a.jsx)("div", {
                       className:
                         "w-fit bg-red-300 dark:bg-red-900 bg-opacity-100 dark:bg-opacity-50 rounded break-all tracking-tighter text-green-800 dark:text-green-200 text-sm 3xl:text-xl font-medium py-1.5 px-4",
-                      children: "$RUBIAI Staking Pool",
+                      children: "$RAVEX Staking Pool",
                     }),
                   ],
                 }),

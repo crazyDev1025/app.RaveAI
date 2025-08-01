@@ -3759,7 +3759,7 @@
                                               className:
                                                 "text-lg font-semibold 3xl:text-2xl",
                                               children: [
-                                                "RUBIAI Bridge",
+                                                "RAVEX Bridge",
                                                 tf &&
                                                   (0, a.jsx)("span", {
                                                     className: "ml-1 3xl:ml-2",
