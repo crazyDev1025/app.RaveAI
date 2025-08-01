@@ -1,0 +1,11 @@
+{
+  "pageProps": {
+    "headMeta": {
+      "title": "Bridge RUBIAI Token from Ethereum to Metis  - Rubi AI",
+      "description": "You can bridge RUBIAI Tokens between active chains through Rubi AI.",
+      "url": "/from-ethereum-to-metis",
+      "image": "/image/meta.png"
+    }
+  },
+  "__N_SSG": true
+}
